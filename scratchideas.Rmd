@@ -21,11 +21,11 @@ Questions to ask:
 
 - https://www.practicereproducibleresearch.org/
 - https://www.markdownguide.org/ (what is markdown?)
-- https://dillinger.io/ (practice writing in markdown)
 - https://docs.google.com/document/d/1WvApy4ayQcZaLRpD6bvAqhWncUaPmmRimT016-PrLBk/edit
+- https://rmarkdown.rstudio.com/gallery.html
 - https://uoftcoders.github.io/rcourse/lec16-rmarkdown.html
 - https://teachdatascience.com/rmarkdown/
-- there's also a youtube video I should really use, can be found in Sent folder at work
+- https://youtu.be/s3JldKoA0zw <- use in presentation
 
 ## Basic flow of the talk
 
@@ -36,7 +36,7 @@ Questions to ask:
 * what is reproducibility
 * do not be intimidated by coding b/c you're already doing it
 * the role of a versioning tool like git
-* a reproducible workflow for our kind
+* a reproducible workflow for our kind (only exploratory data mostly, but still important that everything is correct)
 
 ## Tasks
 
