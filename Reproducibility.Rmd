@@ -1,0 +1,46 @@
+---
+title: "Reproducible Workflow and R Markdown"
+author: "Genelle Denzin, Coalition on Homelessness and Housing in Ohio (COHHIO)"
+date: "8/5/2019"
+output: powerpoint_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Workflows for Data Analysts (?)
+
+
+What workflows are we using to get from raw data -> visualization?
+  
+  - raw data = unfiltered unformatted data straight from your HMIS that you (the data analyst) cannot alter from within the system.
+  
+## Our workflows are important
+
+Homelessness is becoming an increasingly urgent question in the national conversation as housing becomes less and less affordable and wages stay low. We need good data analysis to nurture trust in the data.
+
+## An Example
+
+Analysis on how many currently fleeing domestic violence victims were served in our CoC's ES, TH, RRH, and PSH projects over 2018.
+
+1.  Create custom report named "DV Analysis 2018" in HMIS, export to Excel, name it "Domestic Violence 2018"
+2.  Rename columns so they're prettier, remove last row 
+3.  Import into visualization software
+4.  Create visualization with the results
+
+## The Problem(s)
+
+Hang onto your pants!
+
+- Will Future You be able to work their way back from your visualization to the raw data you used- can you find it? Would this be feasible?
+- If the results of your analysis are questioned, can you explain your results without stress or difficulty?
+- A well-meaning co-worker repurposes your custom report in HMIS called "DV Analysis 2018", rename it "DV Analysis 2019", and modify the logic.
+
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
