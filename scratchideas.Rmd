@@ -24,7 +24,6 @@ Questions to ask:
 - https://docs.google.com/document/d/1WvApy4ayQcZaLRpD6bvAqhWncUaPmmRimT016-PrLBk/edit
 - https://rmarkdown.rstudio.com/gallery.html
 - https://uoftcoders.github.io/rcourse/lec16-rmarkdown.html
-- https://teachdatascience.com/rmarkdown/
 - https://youtu.be/s3JldKoA0zw <- use in presentation
 
 ## Basic flow of the talk
