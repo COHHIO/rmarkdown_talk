@@ -27,7 +27,7 @@ raw data = unfiltered unformatted data straight from your HMIS that you (the dat
 
 ### An Example
 
-Analysis on how many currently fleeing domestic violence victims were served in our CoC's ES, TH, RRH, and PSH projects over 2018.
+Analysis on how many currently fleeing domestic violence victims were served in our CoC's projects during 2018. My theoretical year-ago workflow:
 
 1.  Create custom report named "DV Analysis 2018" in HMIS, export to Excel, name it "Domestic Violence 2018"
 2.  Rename columns, remove last row 
@@ -36,10 +36,9 @@ Analysis on how many currently fleeing domestic violence victims were served in 
 
 ### The Problem(s)
 
-* Will Future You be able to work their way back from your visualization to the raw data you used- can you find it? Would this be feasible?
+* Will Future You be able to work back from the visualization to the raw data?
 * If the results of your analysis are questioned, can you explain your results without stress or difficulty?
 * A well-meaning co-worker repurposes your custom report in HMIS called "DV Analysis 2018", rename it "DV Analysis 2019", and modify the logic.
-
 
 ### What is Reproducibility?
 
@@ -68,7 +67,7 @@ briefly touch on version control
 
 ### What is R Markdown
 
-* allows you to include R code in a markdown document
+* allows you to include R code in a markdown document (or python and others)
 * the R code is evaluated in the processing of the markdown file
 * results from the code are displayed in the final markdown document
 * used widely in scientific and statistical analysis
@@ -77,6 +76,26 @@ briefly touch on version control
 
 * can be written in any basic text editor
 * must be rendered using the R packages called knitr and rmarkdown
+* can handle parameters
 * Highly recommend R Studio for managing your workflow
+
+### What R Markdown Can Create
+
+* HTML, pdf, Word, and PowerPoint documents 
+* Interactive Documents
+* Slide decks (not PowerPoint)
+* Websites, Articles, and blogs 
+* Books
+* See the [Gallery](https://rmarkdown.rstudio.com/gallery.html)
+* Also demo on R Studio Cloud
+
+### How Does R Markdown Get Us to Reproducibility?
+
+* If you're using R Studio, you can connect to an API 
+* The data your document uses remains with your R Markdown document (esp if you are using projects in R Studio)
+* Every step that you take toward querying and shaping your data will be contained in your R Markdown document. Your work documents itself!
+* If you are using a versioning tool, every iteration of your document will be retained.
+
+
 
 
