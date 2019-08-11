@@ -2,45 +2,81 @@
 title: "Reproducible Workflow and R Markdown"
 author: "Genelle Denzin, Coalition on Homelessness and Housing in Ohio (COHHIO)"
 date: "8/5/2019"
-output: powerpoint_presentation
+output:
+  powerpoint_presentation: default
+  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
+library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Workflows for Data Analysts (?)
+### Workflows for Data Analysts
 
+![What workflows are we using to get from raw data -> visualization?](images/softwares.png) 
 
-What workflows are we using to get from raw data -> visualization?
   
-  - raw data = unfiltered unformatted data straight from your HMIS that you (the data analyst) cannot alter from within the system.
+::: notes
+raw data = unfiltered unformatted data straight from your HMIS that you (the data analyst) cannot alter from within the system.
+:::
   
-## Our workflows are important
+### Our workflows are important
 
-Homelessness is becoming an increasingly urgent question in the national conversation as housing becomes less and less affordable and wages stay low. We need good data analysis to nurture trust in the data.
+![Stay grounded](images/grounded2.png)
 
-## An Example
+### An Example
 
 Analysis on how many currently fleeing domestic violence victims were served in our CoC's ES, TH, RRH, and PSH projects over 2018.
 
 1.  Create custom report named "DV Analysis 2018" in HMIS, export to Excel, name it "Domestic Violence 2018"
-2.  Rename columns so they're prettier, remove last row 
+2.  Rename columns, remove last row 
 3.  Import into visualization software
 4.  Create visualization with the results
 
-## The Problem(s)
+### The Problem(s)
 
-Hang onto your pants!
-
-- Will Future You be able to work their way back from your visualization to the raw data you used- can you find it? Would this be feasible?
-- If the results of your analysis are questioned, can you explain your results without stress or difficulty?
-- A well-meaning co-worker repurposes your custom report in HMIS called "DV Analysis 2018", rename it "DV Analysis 2019", and modify the logic.
+* Will Future You be able to work their way back from your visualization to the raw data you used- can you find it? Would this be feasible?
+* If the results of your analysis are questioned, can you explain your results without stress or difficulty?
+* A well-meaning co-worker repurposes your custom report in HMIS called "DV Analysis 2018", rename it "DV Analysis 2019", and modify the logic.
 
 
-## Slide with Plot
+### What is Reproducibility?
 
-```{r pressure}
-plot(pressure)
-```
+![We cannot get to 100% as HMIS Data Analysts but we can make progress.](images/reproducibility.png)
+
+:::notes
+briefly touch on version control
+:::
+
+### Ways to Achieve Better Reproducibility with Current Tools
+
+* Data from HMIS should be as raw as possible (not editable by you)
+* Document your workflow for each visualization
+    * if your data from HMIS is custom, document each action you take to create the data export
+    * file paths, names, and document types
+    * every action you do in your intermediary data shaping tool
+    * any further actions you take inside your visualization tool
+
+### What is Markdown
+
+* created by John Gruber and Aaron Swartz
+* a simplified version of markup languages
+* simple intuitive formatting elements
+* easily converted to valid HTML and other formats
+* a [quick look at the syntax](https://www.markdownguide.org/basic-syntax)
+
+### What is R Markdown
+
+* allows you to include R code in a markdown document
+* the R code is evaluated in the processing of the markdown file
+* results from the code are displayed in the final markdown document
+* used widely in scientific and statistical analysis
+
+### What is R Markdown (continued)
+
+* can be written in any basic text editor
+* must be rendered using the R packages called knitr and rmarkdown
+* Highly recommend R Studio for managing your workflow
+
 
