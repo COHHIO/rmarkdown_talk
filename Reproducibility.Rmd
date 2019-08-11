@@ -91,7 +91,7 @@ briefly touch on version control
 
 ### How Does R Markdown Get Us to Reproducibility?
 
-* If you're using R Studio, you can connect to an API 
+* If you're using R Studio, you can connect to an API.
 * The data your document uses remains with your R Markdown document (esp if you are using projects in R Studio)
 * Every step that you take toward querying and shaping your data will be contained in your R Markdown document. Your work documents itself!
 * If you are using a versioning tool, every iteration of your document will be retained.
