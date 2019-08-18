@@ -106,3 +106,15 @@ briefly touch on version control
 
 IF YOU WANT, go to https://rstudio.cloud/spaces/20807/project/403886
 
+### To Get Started in R
+
+* Install R
+* Install R Studio
+* Type the following in the Console:
+
+```
+install.packages("swirl")
+```
+
+* Follow onscreen instructions, take some courses
+
