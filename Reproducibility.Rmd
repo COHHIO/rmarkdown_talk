@@ -11,6 +11,11 @@ output:
 library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
+### Agenda
+
+* Workflows for HMIS Data Analysts
+* What is Reproducibility?
+* What is R Markdown?
 
 ### Workflows for Data Analysts
 
@@ -97,5 +102,7 @@ briefly touch on version control
 * If you are using a versioning tool, every iteration of your document will be retained.
 
 
+### Let's Create an Analysis in R Markdown
 
+IF YOU WANT, go to https://rstudio.cloud/spaces/20807/project/403886
 
