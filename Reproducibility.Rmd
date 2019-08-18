@@ -69,6 +69,20 @@ briefly touch on version control
 * simple intuitive formatting elements
 * easily converted to valid HTML and other formats
 * a [quick look at the syntax](https://www.markdownguide.org/basic-syntax)
+    
+### A Note about "Coding" and "Programming"
+
+![Identity crisis...?](images/whoami.jpg)  
+
+You probably already are coding on the regular.
+
+:::notes
+What does a programmer look like? Can programmers ALSO be good at people?
+
+You are most likely, in SOME way, already programming. It might look  different, but all the concepts are there. You know your data. You know how you want to see it. 
+
+Does anyone use formulas in Excel? 
+:::
 
 ### What is R Markdown
 
