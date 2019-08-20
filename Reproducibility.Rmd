@@ -72,9 +72,7 @@ briefly touch on version control
     
 ### A Note about "Coding" and "Programming"
 
-![Identity crisis...?](images/whoami.jpg)  
-
-You probably already are coding on the regular.
+![Identity crisis...?](images/whoami.png)  
 
 :::notes
 What does a programmer look like? Can programmers ALSO be good at people?
@@ -83,6 +81,15 @@ You are most likely, in SOME way, already programming. It might look  different,
 
 Does anyone use formulas in Excel? 
 :::
+
+### Disclaimer
+
+I hold a fair amount of privelege:
+
+  * I work in a VERY supportive workplace.
+  * I am part of a 3 1/2 person HMIS team.
+  * I love this stuff and find it addicting.
+  * Things are hard and addictions feel good so I work after work hours a fair amount.
 
 ### What is R Markdown
 
@@ -96,7 +103,7 @@ Does anyone use formulas in Excel?
 * can be written in any basic text editor
 * must be rendered using the R packages called knitr and rmarkdown
 * can handle parameters
-* Highly recommend R Studio for managing your workflow
+* Works very well with R Studio 
 
 ### What R Markdown Can Create
 
@@ -106,29 +113,31 @@ Does anyone use formulas in Excel?
 * Websites, Articles, and blogs 
 * Books
 * See the [Gallery](https://rmarkdown.rstudio.com/gallery.html)
-* Also demo on R Studio Cloud
 
 ### How Does R Markdown Get Us to Reproducibility?
 
 * If you're using R Studio, you can connect to an API.
-* The data your document uses remains with your R Markdown document (esp if you are using projects in R Studio)
-* Every step that you take toward querying and shaping your data will be contained in your R Markdown document. Your work documents itself!
+* Every step that you take toward querying and shaping your data will be contained in your R Markdown document, including your file paths and filenames. Your work documents itself!
 * If you are using a versioning tool, every iteration of your document will be retained.
-
 
 ### Let's Create an Analysis in R Markdown
 
-IF YOU WANT, go to https://rstudio.cloud/spaces/20807/project/403886
+DEMO!
+
+You can try this at home: https://rstudio.cloud/spaces/20807/project/403886
 
 ### To Get Started in R
 
-* Install R
-* Install R Studio
-* Type the following in the Console:
+My two favorite ways:
 
-```
-install.packages("swirl")
-```
+  * Get [R for Data Science](https://r4ds.had.co.nz/) or access it for free online here: https://r4ds.had.co.nz/
+  * Use the R package called [Swirl](https://swirlstats.com/) by going here: https://swirlstats.com/students.html (also free)
+  
+### We Can Work Together
 
-* Follow onscreen instructions, take some courses
+* Most of my code is available on GitHub: https://github.com/kiadso It can be made to work with the HUD CSV Export data from your HMIS.
+
+* The slides and other resources in this presentation are located here:
+
+
 
