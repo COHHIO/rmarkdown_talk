@@ -4,13 +4,25 @@ author: "Genelle Denzin, Coalition on Homelessness and Housing in Ohio (COHHIO)"
 date: "8/5/2019"
 output:
   powerpoint_presentation: default
-  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+### Intro
+
+**Genelle Denzin** she/hers
+
+Data Anaylst
+
+Coalition on Homelessness and Housing in Ohio (COHHIO)
+
+LSU BA in English Lit. Came to this position from a data background almost 10 years ago. 
+
+Special thanks to everyone who helped me put this together.
+
 ### Agenda
 
 * Workflows for HMIS Data Analysts
@@ -57,12 +69,16 @@ briefly touch on version control
 
 ### Ways to Achieve Better Reproducibility with Current Tools
 
-* Data from HMIS should be as raw as possible (not editable by you)
+* Data from HMIS should be as raw as possible 
 * Document your workflow for each visualization
     * file paths, names, and document types
     * every action you do in your intermediary data shaping tool
     * any further actions you take inside your visualization tool
     * if your data from HMIS is custom, document each action you take to create the data export
+    
+:::notes
+The HUD CSV Export specs are great documentation of your data source. Also you can't edit the export from within HMIS (also good!). 
+:::
 
 ### What is Markdown
 
@@ -101,24 +117,23 @@ briefly touch on version control
 
 ### Let's Create an Analysis in R Markdown
 
-DEMO!
+![](images/Music-Demo-Cassette-Tape.png)
 
 :::notes
-should be about 15 minutes
+should be about 15 minutes. the plan is to open a fresh .Rmd file in R Studio, point out the structure of it, run it, make some quick edits to make it look better, rerun to see changes.
 :::
 
-### To Get Started in R
 
-My two favorite ways:
+### Why Move Toward a Reproducible Workflow?
 
-  * Get [R for Data Science](https://r4ds.had.co.nz/) or access it for free online here: https://r4ds.had.co.nz/
-  * Use the R package called [Swirl](https://swirlstats.com/) by going here: https://swirlstats.com/students.html (also free)
-  
-### We Can Work Together
+* Easier to find and correct errors
+* Helps you create comparison data later
+* Helps others to check your logic, which helps validate your work
+* Whether our data is ever questioned, we should always be prepared to back up our numbers. 
 
-* Most of my code is available on GitHub: https://github.com/kiadso You are welcome to use it to manipulate your own HMIS data (within the terms.)
-
-* The slides and other resources in this presentation are located here:
+:::notes
+(We should welcome this kind of interest and be preparied to respond with integrity.)
+:::
 
 ### A Note about "Coding" and "Programming"
 
@@ -132,12 +147,31 @@ You are most likely, in SOME way, already programming. It might look  different,
 Does anyone use formulas in Excel? 
 :::
 
+### A Note about the R Community
+
+![Artwork by Allison Horst](images/welcome_to_rstats_twitter_ArtworkBy@allison_horst.png)
+
 ### Disclaimer
 
-  * I work in a VERY supportive workplace.
+  * I work in a supportive workplace.
   * I am part of a 3 1/2 person HMIS team.
+
+### To Get Started in R
+
+My three favorite ways:
+
+  * Get [R for Data Science](https://r4ds.had.co.nz/) or access it for free online here: https://r4ds.had.co.nz/
+  * Use the R package called [Swirl](https://swirlstats.com/) by going here: https://swirlstats.com/students.html (also free)
+  * R-Ladies meetups
   
+### We Can Work Together
+
+* Most of my code is available on GitHub: https://github.com/kiadso You are welcome to use it to manipulate your own HMIS data (within the terms.)
+
 ### Questions?
+
+First: Let's take two minutes to share your questions with your neighbor.
+Then: Questions
   
 ### Contact Info
 
