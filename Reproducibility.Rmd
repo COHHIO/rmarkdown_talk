@@ -15,7 +15,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * Workflows for HMIS Data Analysts
 * What is Reproducibility?
+* Reproducibility With Current Tools
 * What is R Markdown?
+* How to Get Started with R (if you want)
 
 ### Workflows for Data Analysts
 
@@ -32,7 +34,7 @@ raw data = unfiltered unformatted data straight from your HMIS that you (the dat
 
 ### An Example
 
-Analysis on how many currently fleeing domestic violence victims were served in our CoC's projects during 2018. My theoretical year-ago workflow:
+Analysis on how many DV survivors were served in our CoC's projects during 2018. My theoretical year-ago workflow:
 
 1.  Create custom report named "DV Analysis 2018" in HMIS, export to Excel, name it "Domestic Violence 2018"
 2.  Rename columns, remove last row 
@@ -43,7 +45,7 @@ Analysis on how many currently fleeing domestic violence victims were served in 
 
 * Will Future You be able to work back from the visualization to the raw data?
 * If the results of your analysis are questioned, can you explain your results without stress or difficulty?
-* A well-meaning co-worker repurposes your custom report in HMIS called "DV Analysis 2018", rename it "DV Analysis 2019", and modify the logic.
+* A well-meaning co-worker repurposes your custom report in HMIS called "DV Analysis 2018", renames it "DV Analysis 2019", and modifies the logic.
 
 ### What is Reproducibility?
 
@@ -57,10 +59,10 @@ briefly touch on version control
 
 * Data from HMIS should be as raw as possible (not editable by you)
 * Document your workflow for each visualization
-    * if your data from HMIS is custom, document each action you take to create the data export
     * file paths, names, and document types
     * every action you do in your intermediary data shaping tool
     * any further actions you take inside your visualization tool
+    * if your data from HMIS is custom, document each action you take to create the data export
 
 ### What is Markdown
 
@@ -69,40 +71,18 @@ briefly touch on version control
 * simple intuitive formatting elements
 * easily converted to valid HTML and other formats
 * a [quick look at the syntax](https://www.markdownguide.org/basic-syntax)
-    
-### A Note about "Coding" and "Programming"
-
-![Identity crisis...?](images/whoami.png)  
-
-:::notes
-What does a programmer look like? Can programmers ALSO be good at people?
-
-You are most likely, in SOME way, already programming. It might look  different, but all the concepts are there. You know your data. You know how you want to see it. 
-
-Does anyone use formulas in Excel? 
-:::
-
-### Disclaimer
-
-I hold a fair amount of privelege:
-
-  * I work in a VERY supportive workplace.
-  * I am part of a 3 1/2 person HMIS team.
-  * I love this stuff and find it addicting.
-  * Things are hard and addictions feel good so I work after work hours a fair amount.
 
 ### What is R Markdown
 
 * allows you to include R code in a markdown document (or python and others)
 * the R code is evaluated in the processing of the markdown file
 * results from the code are displayed in the final markdown document
-* used widely in scientific and statistical analysis
+* can handle parameters
 
 ### What is R Markdown (continued)
 
 * can be written in any basic text editor
 * must be rendered using the R packages called knitr and rmarkdown
-* can handle parameters
 * Works very well with R Studio 
 
 ### What R Markdown Can Create
@@ -116,8 +96,8 @@ I hold a fair amount of privelege:
 
 ### How Does R Markdown Get Us to Reproducibility?
 
-* If you're using R Studio, you can connect to an API.
-* Every step that you take toward querying and shaping your data will be contained in your R Markdown document, including your file paths and filenames. Your work documents itself!
+* You can connect to an API with R. (rawer data)
+* Every step you take in shaping your data and creating the visualization will be contained in your R Markdown document. Your work documents itself!
 * If you are using a versioning tool, every iteration of your document will be retained.
 
 ### Let's Create an Analysis in R Markdown
@@ -135,9 +115,23 @@ My two favorite ways:
   
 ### We Can Work Together
 
-* Most of my code is available on GitHub: https://github.com/kiadso It can be made to work with the HUD CSV Export data from your HMIS.
+* Most of my code is available on GitHub: https://github.com/kiadso You are welcome to use it to manipulate your own HMIS data (within the terms.)
 
 * The slides and other resources in this presentation are located here:
 
+### A Note about "Coding" and "Programming"
 
+![Identity crisis...?](images/whoami.png)  
 
+:::notes
+What does a programmer look like? Can programmers ALSO be good at people?
+
+You are most likely, in SOME way, already programming. It might look  different, but all the concepts are there. You know your data. You know how you want to see it. 
+
+Does anyone use formulas in Excel? 
+:::
+
+### Disclaimer
+
+  * I work in a VERY supportive workplace.
+  * I am part of a 3 1/2 person HMIS team.
