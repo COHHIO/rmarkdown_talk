@@ -96,15 +96,16 @@ briefly touch on version control
 
 ### How Does R Markdown Get Us to Reproducibility?
 
-* You can connect to an API with R. (rawer data)
 * Every step you take in shaping your data and creating the visualization will be contained in your R Markdown document. Your work documents itself!
-* If you are using a versioning tool, every iteration of your document will be retained.
+* Your data manipulation tool = your visualization tool. No need to copy-paste results into final documents and then later wonder where it came from and how it was built.
 
 ### Let's Create an Analysis in R Markdown
 
 DEMO!
 
-You can try this at home: https://rstudio.cloud/spaces/20807/project/403886
+:::notes
+should be about 15 minutes
+:::
 
 ### To Get Started in R
 
@@ -135,3 +136,19 @@ Does anyone use formulas in Excel?
 
   * I work in a VERY supportive workplace.
   * I am part of a 3 1/2 person HMIS team.
+  
+### Questions?
+  
+### Contact Info
+
+Genelle Denzin *(she/hers)*
+
+HMIS Data Analyst
+
+Coalition on Homelessness and Housing in Ohio (COHHIO)
+
+genelledenzin@cohhio.org
+
+Twitter: @gh_firefly
+
+GitHub: kiadso
