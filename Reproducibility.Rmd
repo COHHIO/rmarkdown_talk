@@ -143,11 +143,9 @@ should be about 15 minutes. the plan is to open a fresh .Rmd file in R Studio, p
 What does a programmer look like? Can programmers ALSO be good at people?
 
 You are most likely, in SOME way, already programming. It might look  different, but all the concepts are there. You know your data. You know how you want to see it. 
-
-Does anyone use formulas in Excel? 
 :::
 
-### A Note about the R Community
+### The R Community
 
 ![Artwork by Allison Horst](images/welcome_to_rstats_twitter_ArtworkBy@allison_horst.png)
 
