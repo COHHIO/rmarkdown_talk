@@ -1,6 +1,6 @@
 ---
 title: "Reproducible Workflow and R Markdown"
-author: "Genelle Denzin, Coalition on Homelessness and Housing in Ohio (COHHIO)"
+subtitle: "Genelle Denzin, Coalition on Homelessness and Housing in Ohio (COHHIO)"
 date: "8/5/2019"
 output:
   powerpoint_presentation: default
