@@ -9,26 +9,19 @@ output: powerpoint_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
-
-Slides due September 16th
-Questions to ask:
-
-- Does interactive mean I should instruct attendees to follow along at R Studio Cloud or is that too much (I could make it optional)
-- I use very few slides because I refer to outside the ppt. It doesn't mean the talk will be too short.
 
 ## Resources
 
 - https://www.practicereproducibleresearch.org/
-- https://www.markdownguide.org/ (what is markdown?)
+- https://www.markdownguide.org/ 
 - https://docs.google.com/document/d/1WvApy4ayQcZaLRpD6bvAqhWncUaPmmRimT016-PrLBk/edit
 - https://rmarkdown.rstudio.com/gallery.html
 - https://uoftcoders.github.io/rcourse/lec16-rmarkdown.html
-- https://youtu.be/s3JldKoA0zw <- use in presentation
+- https://youtu.be/s3JldKoA0zw 
 
 ## Basic flow of the talk
 
-* give option to follow along at R Studio Cloud, talk about R and R Studio VERY BRIEFLY and how using R Studio Cloud bypasses the need to install that
+
 * forest-level explanation of which part we're thinking about: the data munging between Raw and Visualization. Workflow discussion
 * what is markdown
 * what is R Markdown
@@ -36,12 +29,6 @@ Questions to ask:
 * do not be intimidated by coding b/c you're already doing it
 * the role of a versioning tool like git
 * a reproducible workflow for our kind (only exploratory data mostly, but still important that everything is correct)
-
-## Tasks
-
-* work on R Studio Cloud- either create something or use/modify someone else's
-  - it should be about HMIS data
-  - it should use sample data
 
 ## The Description NHSDC Has
 
