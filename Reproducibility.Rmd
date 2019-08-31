@@ -35,7 +35,6 @@ Special thanks to everyone who helped me put this together.
 
 ![What workflows are we using to get from raw data -> visualization?](images/softwares.png) 
 
-  
 ::: notes
 raw data = unfiltered unformatted data straight from your HMIS that you (the data analyst) cannot alter from within the system.
 :::
@@ -167,6 +166,8 @@ My three favorite ways:
 ### We Can Work Together
 
 * Most of my code is available on GitHub: https://github.com/kiadso You are welcome to use it to manipulate your own HMIS data (within the terms).
+
+* These slides and more resources are available there as well: https://github.com/kiadso/rmarkdown_talk
 
 ### Questions?
 
