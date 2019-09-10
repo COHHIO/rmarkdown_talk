@@ -108,12 +108,22 @@ The HUD CSV Export specs are great documentation of your data source. Also you c
 * slide decks (not PowerPoint)
 * websites, articles, and blogs 
 * books
-* See the [Gallery](https://rmarkdown.rstudio.com/gallery.html)
+* see the [Gallery](https://rmarkdown.rstudio.com/gallery.html)
 
 ### How Does R Markdown Get Us to Reproducibility?
 
 * Every step you take in shaping your data and creating the visualization will be contained in your R Markdown document. Your work documents itself!
 * Your data manipulation tool = your visualization tool. No need to copy-paste results into final documents and then later wonder where it came from and how it was built.
+
+### A Note about "Coding" and "Programming"
+
+![Identity crisis...?](images/whoami.png)  
+
+:::notes
+What does a programmer look like? Can programmers ALSO be good at people?
+
+You are most likely, in SOME way, already programming. It might look  different, but all the concepts are there. You know your data. You know how you want to see it. 
+:::
 
 ### Let's Create an Analysis in R Markdown
 
@@ -122,7 +132,6 @@ The HUD CSV Export specs are great documentation of your data source. Also you c
 :::notes
 should be about 15 minutes. the plan is to open a fresh .Rmd file in R Studio, point out the structure of it, run it, make some quick edits to make it look better, rerun to see changes.
 :::
-
 
 ### Why Move Toward a Reproducible Workflow?
 
@@ -133,16 +142,6 @@ should be about 15 minutes. the plan is to open a fresh .Rmd file in R Studio, p
 
 :::notes
 (We should welcome this kind of interest and be prepared to respond with integrity.)
-:::
-
-### A Note about "Coding" and "Programming"
-
-![Identity crisis...?](images/whoami.png)  
-
-:::notes
-What does a programmer look like? Can programmers ALSO be good at people?
-
-You are most likely, in SOME way, already programming. It might look  different, but all the concepts are there. You know your data. You know how you want to see it. 
 :::
 
 ### The R Community
@@ -170,13 +169,11 @@ My three favorite ways:
 
 ### Questions?
 
-First: Let's take two minutes to share your questions with your neighbor.
+![from We Love Cats and Kittens](images/thinking-cat.jpg)
 
-Then: Questions
-  
 ### Contact Info
 
-Genelle Denzin *(she/hers)*.
+Genelle Denzin *(she/hers)*
 
 HMIS Data Analyst
 
