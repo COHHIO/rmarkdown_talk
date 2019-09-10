@@ -1,7 +1,6 @@
 ---
 title: "Reproducible Workflow and R Markdown"
 author: "Genelle Denzin, Coalition on Homelessness and Housing in Ohio (COHHIO)"
-date: "8/5/2019"
 output:
   powerpoint_presentation: default
 ---
@@ -15,13 +14,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **Genelle Denzin** she/hers
 
-Data Anaylst
+Data Analyst
 
 Coalition on Homelessness and Housing in Ohio (COHHIO)
 
-LSU BA in English Lit. Came to this position from a data background almost 10 years ago. 
+* LSU BA in English Lit. Came to this position from a data background almost 10 years ago. 
 
-Special thanks to everyone who helped me put this together.
+* Special thanks to everyone who helped me put this together.
 
 ### Agenda
 
@@ -174,7 +173,7 @@ Then: Questions
   
 ### Contact Info
 
-Genelle Denzin *(she/hers)*
+Genelle Denzin *(she/hers)*.
 
 HMIS Data Analyst
 
