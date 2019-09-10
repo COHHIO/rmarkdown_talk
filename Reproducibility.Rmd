@@ -34,7 +34,6 @@ Coalition on Homelessness and Housing in Ohio (COHHIO)
 
 ![What workflows are we using to get from raw data -> visualization?](images/softwares.png) 
 
-  
 ::: notes
 raw data = unfiltered unformatted data straight from your HMIS that you (the data analyst) cannot alter from within the system.
 :::
@@ -56,14 +55,16 @@ Analysis on how many DV survivors were served in our CoC's projects during 2018.
 
 * Will Future You be able to work back from the visualization to the raw data?
 * If the results of your analysis are questioned, can you explain your results without stress or difficulty?
-* A well-meaning co-worker repurposes your custom report in HMIS called "DV Analysis 2018", renames it "DV Analysis 2019", and modifies the logic.
+* A well-meaning co-worker repurposes your custom report in HMIS called "DV Analysis 2018", renames it "DV Analysis 2019", and modifies the logic. Could you recreate it?
 
 ### What is Reproducibility?
 
 ![We cannot get to 100% as HMIS Data Analysts but we can make progress.](images/reproducibility.png)
 
 :::notes
-briefly touch on version control
+talk about it in general, we can't get to 100%
+go through the four icons
+version control: Word -> Track Changes, Google docs -> versioning, git -> steep learning curve but worth it
 :::
 
 ### Ways to Achieve Better Reproducibility with Current Tools
@@ -89,7 +90,7 @@ The HUD CSV Export specs are great documentation of your data source. Also you c
 
 ### What is R Markdown
 
-* allows you to include R code in a markdown document (or python and others)
+* allows you to include R code in a markdown document (or SQL, or python and others)
 * the R code is evaluated in the processing of the markdown file
 * results from the code are displayed in the final markdown document
 * can handle parameters
@@ -98,15 +99,15 @@ The HUD CSV Export specs are great documentation of your data source. Also you c
 
 * can be written in any basic text editor
 * must be rendered using the R packages called knitr and rmarkdown
-* Works very well with R Studio 
+* works very well with R Studio 
 
 ### What R Markdown Can Create
 
 * HTML, pdf, Word, and PowerPoint documents 
-* Interactive Documents
-* Slide decks (not PowerPoint)
-* Websites, Articles, and blogs 
-* Books
+* interactive documents
+* slide decks (not PowerPoint)
+* websites, articles, and blogs 
+* books
 * See the [Gallery](https://rmarkdown.rstudio.com/gallery.html)
 
 ### How Does R Markdown Get Us to Reproducibility?
@@ -128,10 +129,10 @@ should be about 15 minutes. the plan is to open a fresh .Rmd file in R Studio, p
 * Easier to find and correct errors
 * Helps you create comparison data later
 * Helps others to check your logic, which helps validate your work
-* Whether our data is ever questioned, we should always be prepared to back up our numbers. 
+* Whether or not our data is ever questioned, we should always be prepared to back up our numbers. 
 
 :::notes
-(We should welcome this kind of interest and be preparied to respond with integrity.)
+(We should welcome this kind of interest and be prepared to respond with integrity.)
 :::
 
 ### A Note about "Coding" and "Programming"
@@ -163,7 +164,9 @@ My three favorite ways:
   
 ### We Can Work Together
 
-* Most of my code is available on GitHub: https://github.com/kiadso You are welcome to use it to manipulate your own HMIS data (within the terms.)
+* Most of my code is available on GitHub: https://github.com/kiadso You are welcome to use it to manipulate your own HMIS data (within the terms).
+
+* These slides and more resources are available there as well: https://github.com/kiadso/rmarkdown_talk
 
 ### Questions?
 
