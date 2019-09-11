@@ -12,15 +12,36 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Intro
 
-**Genelle Denzin** she/hers
+:::::: {.columns}
+::: {.column width="40%"}
+**Genelle Denzin** *she/hers*
 
 Data Analyst
 
 Coalition on Homelessness and Housing in Ohio (COHHIO)
 
-* LSU BA in English Lit. Came to this position from a data background almost 10 years ago. 
+* Based in Columbus, Ohio
+* Fiddler
+* Lover of R
 
-* Special thanks to everyone who helped me put this together.
+:::
+
+::: {.column width="60%"}
+**Ohio Balance of State CoC**
+
+CoC Director: Erica Mulryan
+
+**Youngstown CoC**
+
+CoC Director: Colleen Kosta
+:::
+::::::
+
+### Ohio Balance of State
+![80 of the 88 Counties in Ohio](images/lrg-boscoc.png)
+
+
+
 
 ### Agenda
 
