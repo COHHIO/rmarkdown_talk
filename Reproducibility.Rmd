@@ -49,6 +49,7 @@ CoC Director: Colleen Kosta
 * What is Reproducibility?
 * Reproducibility With Current Tools
 * What is R Markdown?
+* Demo
 * How to Get Started with R (if you want)
 
 ### Workflows for Data Analysts
@@ -90,12 +91,13 @@ version control: Word -> Track Changes, Google docs -> versioning, git -> steep 
 
 ### Ways to Achieve Better Reproducibility with Current Tools
 
-* Data from HMIS should be as raw as possible 
 * Document your workflow for each visualization
     * file paths, names, and document types
     * every action you do in your intermediary data shaping tool
     * any further actions you take inside your visualization tool
     * if your data from HMIS is custom, document each action you take to create the data export
+* Data from HMIS should be as raw as possible 
+    * Your documentation = the HUD specifications
     
 :::notes
 The HUD CSV Export specs are great documentation of your data source. Also you can't edit the export from within HMIS (also good!). 
@@ -105,7 +107,7 @@ The HUD CSV Export specs are great documentation of your data source. Also you c
 
 * created by John Gruber and Aaron Swartz
 * a simplified version of markup languages
-* simple intuitive formatting elements
+* simple intuitive formatting 
 * easily converted to valid HTML and other formats
 * a [quick look at the syntax](https://www.markdownguide.org/basic-syntax)
 
@@ -119,7 +121,7 @@ The HUD CSV Export specs are great documentation of your data source. Also you c
 ### What is R Markdown (continued)
 
 * can be written in any basic text editor
-* must be rendered using the R packages called knitr and rmarkdown
+* must be rendered using the R packages called ***knitr*** and ***rmarkdown***
 * works very well with R Studio 
 
 ### What R Markdown Can Create
@@ -172,7 +174,7 @@ should be about 15 minutes. the plan is to open a fresh .Rmd file in R Studio, p
 ### Disclaimer
 
   * I work in a supportive workplace.
-  * I am part of a 3 1/2 person HMIS team.
+  * I am part of a 3½ person HMIS team.
 
 ### To Get Started in R
 
@@ -205,3 +207,5 @@ genelledenzin@cohhio.org
 Twitter: @gh_firefly
 
 GitHub: kiadso
+
+For citations and documentation, please see the GitHub repository here: https://github.com/kiadso/rmarkdown_talk 
