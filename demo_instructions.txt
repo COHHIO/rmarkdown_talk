@@ -1,0 +1,25 @@
+1. Knit
+2. 1st code chunk:
+	a. Add libraries tidyverse and gt
+	b. explain about libraries and a little about the tidyverse
+3. 2nd code chunk:
+	a. change chunk name to iris
+	b. replace summary(cars) with summary(iris)
+	c. run chunk
+	d. change column order to select(5, 1, 2, 3, 4)
+	e. run chunk
+	f. assign to x
+	g. do head(x)
+	h. run chunk
+	i. do gt(head(x))
+4. 3rd code chunk:
+	a. run as is
+	b. explain about ggplot
+	c. do ggplot(pressure, aes(x = temperature, y = pressure)) + geom_col()
+	d. run chunk
+	e. inside geom_col(), add aes(fill = temperature)
+	f. run chunk
+	g. add + theme_minimal()
+	h. run chunk
+	
+	
