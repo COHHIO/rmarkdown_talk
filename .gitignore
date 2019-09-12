@@ -2,5 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-*.pptx
 *.html
+Reproducibility.pptx
+nhsdc_reference.pptx
