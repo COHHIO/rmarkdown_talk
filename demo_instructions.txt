@@ -22,4 +22,32 @@
 	g. add + theme_minimal()
 	h. run chunk
 	
+	Another Option:
+	
+	1. Knit
+2. 1st code chunk:
+	a. library(tidyverse) library(DT)
+	b. explain about libraries and a little about the tidyverse
+3. 2nd code chunk:
+	a. change chunk name to getprojects
+	b. project <- read.csv("data/Project.csv") (base R)
+	b. replace summary(cars) with str(projects) (base R)
+	c. run chunk
+	d. change column order to select(5, 1, 2, 3, 4)
+	e. run chunk
+	f. assign to x
+	g. do head(x) (base R)
+	h. run chunk
+	i. do datatable(x)
+4. 3rd code chunk:
+	a. run as is
+	b. explain about ggplot
+	c. do ggplot(project, aes(ProjectType)) + 
+  geom_histogram()
+	d. run chunk
+	e. inside geom_histogram(), add na.rm = TRUE, bins = 25
+	f. run chunk
+	g. add + theme_minimal()
+	h. run chunk
+	
 	
