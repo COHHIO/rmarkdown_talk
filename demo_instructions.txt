@@ -24,7 +24,7 @@
 	
 	Another Option:
 	
-	1. Knit
+1. Knit
 2. 1st code chunk:
 	a. library(tidyverse) library(DT)
 	b. explain about libraries and a little about the tidyverse
