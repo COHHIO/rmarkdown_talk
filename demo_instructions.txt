@@ -1,53 +1,27 @@
-1. Knit
-2. 1st code chunk:
-	a. Add libraries tidyverse and gt
+1. Creating the document (it prepopulates thanks to RStudio)
+2. YAML
+3. Code chunks
+4. Create new code chunk (and delete it)
+5. Knit
+6. 1st code chunk:
+	a. Add library(gt)
 	b. explain about libraries and a little about the tidyverse
-3. 2nd code chunk:
-	a. change chunk name to iris
-	b. replace summary(cars) with summary(iris)
-	c. run chunk
-	d. change column order to select(5, 1, 2, 3, 4)
-	e. run chunk
-	f. assign to x
-	g. do head(x)
-	h. run chunk
-	i. do gt(head(x))
-4. 3rd code chunk:
+7. 2nd code chunk:
+	a. change summary() to gt()
+	b. Knit again
+8. 3rd code chunk:
 	a. run as is
 	b. explain about ggplot
 	c. do ggplot(pressure, aes(x = temperature, y = pressure)) + geom_col()
 	d. run chunk
-	e. inside geom_col(), add aes(fill = temperature)
+	e. inside geom_col(), add: aes(fill = temperature)
 	f. run chunk
-	g. add + theme_minimal()
+	g. add: + theme_minimal()
 	h. run chunk
-	
-	Another Option:
-	
-1. Knit
-2. 1st code chunk:
-	a. library(tidyverse) library(DT)
-	b. explain about libraries and a little about the tidyverse
-3. 2nd code chunk:
-	a. change chunk name to getprojects
-	b. project <- read.csv("data/Project.csv") (base R)
-	b. replace summary(cars) with str(projects) (base R)
-	c. run chunk
-	d. change column order to select(5, 1, 2, 3, 4)
-	e. run chunk
-	f. assign to x
-	g. do head(x) (base R)
-	h. run chunk
-	i. do datatable(x)
-4. 3rd code chunk:
-	a. run as is
-	b. explain about ggplot
-	c. do ggplot(project, aes(ProjectType)) + 
-  geom_histogram()
-	d. run chunk
-	e. inside geom_histogram(), add na.rm = TRUE, bins = 25
-	f. run chunk
-	g. add + theme_minimal()
-	h. run chunk
-	
+	i. Knit again
+9. open COHHIO_HMIS project, go to Reports/2016-18Children.Rmd, Knit
+  a. tabbed 
+  b. interactive
+10. open Ohio Wide project, go to SPMs.Rmd, Knit
+  a. animation
 	
