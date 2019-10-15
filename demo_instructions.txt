@@ -3,12 +3,12 @@
 3. Code chunks
 4. Create new code chunk (and delete it)
 5. Knit
-6. 1st code chunk:
-	a. Add library(gt)
+6. 2nd code chunk:
+	a. change summary() to head()
+	b. run in-line
+7. 1st code chunk:
+	a. Add library(ggplot2)
 	b. explain about libraries and a little about the tidyverse
-7. 2nd code chunk:
-	a. change summary() to gt()
-	b. Knit again
 8. 3rd code chunk:
 	a. run as is
 	b. explain about ggplot
