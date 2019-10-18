@@ -39,5 +39,6 @@
 
 - [Search for an R-Ladies Near You](https://www.meetup.com/pro/rladies)
 
+- In response to audience question about how to learn R Shiny: [Mastering R Shiny, by Hadley Wickham](https://mastering-shiny.org/)
 
 ---
